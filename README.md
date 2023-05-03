@@ -1,5 +1,5 @@
 # Facial-Expression-Recognition-and-Computing-Valence-and-Arousal
-### Reeha Khan
+Implementation and Comparison of ResNet-18, MobileNet-V2 and EfficientNet-B1 on AffectNet dataset.
 
 # Contents
 
