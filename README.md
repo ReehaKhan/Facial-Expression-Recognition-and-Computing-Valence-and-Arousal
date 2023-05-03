@@ -71,17 +71,14 @@ FC layers in parallel. The last FC layer of ResNet18 and EfficientNet B1 and
 the Classifier layer of MobileNet V2 is replaced with the CustomClassifier. The architecture of these networks are as follows.
 <p align="center">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/resnet.jpg" width="400" height="300">
-    <br>
-    <em>ResNet-18</em>
-</p>
-<p align="center">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/mobnet.png" width="400" height="300">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/effnet.png" width="400" height="300">
     <br>
     <em>MobileNet-V2</em>
 </p>
 <p align="center">
-    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/effnet.png" width="400" height="300">
-    <br>
+    <em>ResNet-18</em>
+    <em>MobileNet-V2</em>
     <em>EfficientNet-B1</em>
 </p>
 
