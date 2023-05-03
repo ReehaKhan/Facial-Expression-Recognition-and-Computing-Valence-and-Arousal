@@ -73,7 +73,6 @@ the Classifier layer of MobileNet V2 is replaced with the CustomClassifier. The 
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/resnet.jpg" width="200" height="500">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/mobnet.png" width="300" height="500">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/effnet.png" width="500" height="500">
-
 </p>
 <p align="center">
     <em>ResNet-18</em>
@@ -81,23 +80,12 @@ the Classifier layer of MobileNet V2 is replaced with the CustomClassifier. The 
     <em>EfficientNet-B1</em>
 </p>
 
-<div style="display: flex; flex-direction: row;">
-    <div style="margin-right: 20px;">
-        <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/resnet.png" width="200" height="500">
-        <br>
-        <em>ResNet-18</em>
-    </div>
-    <div style="margin-right: 20px;">
-        <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/mobnet.png" width="300" height="500">
-        <br>
-        <em>MobileNet-V2</em>
-    </div>
-    <div>
-        <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/effnet.png" width="200" height="500">
-        <br>
-        <em>EfficientNet-B1</em>
-    </div>
-</div>
+<p align="center">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/resnet.jpg" width="300" height="400" style="transform: rotate(90deg)">
+    <br>
+    <em>ResNet-18</em>
+</p>
+
 
 
 
