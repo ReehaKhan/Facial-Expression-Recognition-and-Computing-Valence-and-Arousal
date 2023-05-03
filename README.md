@@ -74,7 +74,11 @@ the Classifier layer of MobileNet V2 is replaced with the CustomClassifier. The 
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/mobnet.png" width="300" height="500">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/effnet.png" width="200" height="500">
 </p>
-
+The paramters and the transfer learning setting for the models are as follows.
+| | ResNet-18 | MobileNet-V2 | EfficientNet-B1 |
+|-------|-------|-------|-----------|
+| | 11,181,642 | 2,236,682 | 6.525.994 |
+| | No | No | Yes |
 
 
 
