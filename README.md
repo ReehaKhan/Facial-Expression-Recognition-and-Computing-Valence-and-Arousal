@@ -68,23 +68,13 @@ The models chosen for this task are three, i.e., ResNet18, Mobilenet V2, and
 Efficient Net B1. 
 All three of these models are expected to perform 2 regression and 1 classification task. For this reason, a class is built that performs 3
 FC layers in parallel. The last FC layer of ResNet18 and EfficientNet B1 and
-the Classifier layer of MobileNet V2 is replaced with the CustomClassifier. The architecture of these networks are as follows.
+the Classifier layer of MobileNet V2 is replaced with the CustomClassifier. The architecture of these networks are as follows. ResNet-18, MobileNet-V2 and EfficientNet-B1 in order.
 <p align="center">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/resnet.jpg" width="200" height="500">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/mobnet.png" width="300" height="500">
-    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/effnet.png" width="500" height="500">
-</p>
-<p align="center">
-    <em>ResNet-18</em>
-    <em>MobileNet-V2</em>
-    <em>EfficientNet-B1</em>
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/effnet.png" width="200" height="500">
 </p>
 
-<p align="center">
-    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/resnet.jpg" width="300" height="400" style="transform: rotate(90deg)">
-    <br>
-    <em>ResNet-18</em>
-</p>
 
 
 
