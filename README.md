@@ -40,7 +40,7 @@ and arousal shows excitement/agitation or calm/soothing. This is done using
 The implementation and performance comparisons are discussed.
 
 ## DataSet
-The dataset used in this assignment is AffectNet. AffectNet is a large facial
+The dataset used in this project is AffectNet(http://mohammadmahoor.com/affectnet/). AffectNet is a large facial
 expression dataset with around 300K images manually labeled for the presence
 of eight facial expressions along with the facial landmarks and the intensity
 of valence and arousal. Each of these labels is stored in a separate annotation
@@ -60,6 +60,8 @@ In this project, the count of images in the train, test and validation set is as
 | Train | Test | Validation |
 |-------|-------|-----------|
 | 230120 | 57531 | 3999 |
+
+The dataset can be requested from the(http://mohammadmahoor.com/affectnet/) official website.
 
 ## Models
 
