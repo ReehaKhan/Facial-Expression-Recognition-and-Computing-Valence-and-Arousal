@@ -159,13 +159,13 @@ The classification report:
 | Sign Agreement Metric       | 0.68        | 0.63             | **0.70** |
 | Concordance Correlation Coefficient | 0.46 | 0.13             | **0.56** |
 
-
+ResNet-18 has outperformed the other two models in all three tasks.
 
 ### Some classifications by ResNet-18
 #### Correctly Classified
-!(https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20correctly%20classified%20images.png)
+![Correctly Classified by ResNet-18](https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20correctly%20classified%20images.png)
 
 #### Incorrectly Classified
-!(https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20incorrectly%20classified%20images.png)
+![Incorrectly Classified by ResNet-18](https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20incorrectly%20classified%20images.png)
 
 
