@@ -47,13 +47,13 @@ of valence and arousal. Each of these labels is stored in a separate annotation
 file for each image. The dataset has 2 folders, one containing the train and
 test data and another containing the validation data. Each dataset contains
 the following:
-• Eight emotion and non-emotion categorical labels (0: Neutral, 1: Happy, 2:
+- Eight emotion and non-emotion categorical labels (0: Neutral, 1: Happy, 2:
 Sad, 3: Surprise, 4: Fear, 5: Disgust, 6: Anger, 7: Contempt). This is used
 for the classification of expressions.
-• Valence and Arousal values of the facial expressions in the continuous
+- Valence and Arousal values of the facial expressions in the continuous
 domain, and are provided as floating point numbers in the interval [-1,+1].
 These are used for the 2 regression tasks.
-• Location of the Facial Landmarks. These are ignored in this work, as we use
+- Location of the Facial Landmarks. These are ignored in this work, as we use
 Deep CNNs which are cable enough to learn features themselves.
 
 In this project, the count of images in the train, test and validation set is as follows.
