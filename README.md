@@ -70,7 +70,7 @@ All three of these models are expected to perform 2 regression and 1 classificat
 FC layers in parallel. The last FC layer of ResNet18 and EfficientNet B1 and
 the Classifier layer of MobileNet V2 is replaced with the CustomClassifier. The architecture of these networks are as follows.
 <p align="center">
-    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/resnet.png" width="400" height="300">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/resnet.jpg" width="400" height="300">
     <br>
     <em>ResNet-18</em>
 </p>
