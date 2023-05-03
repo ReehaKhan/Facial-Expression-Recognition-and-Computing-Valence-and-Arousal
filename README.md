@@ -82,6 +82,23 @@ The paramters and the transfer learning setting for the models are as follows.
 | Parameters | 11,181,642 | 2,236,682 | 6.525.994 |
 | Transfer Learning | No | No | Yes |
 
+### Loss Functions
+The loss function used for classification is Cross Entropy Loss. Mean
+Squared Error is used for regression.
+
+### Training Parameters
+|               | MobileNet V2 | Efficient Net B1 | ResNet18 |
+|---------------|--------------|------------------|------------|
+| Initial Learning Rate | 0.001 | 0.001 | 0.001 |
+| Optimizer | Adam | Adam | Adam |
+| Scheduler | StepLR | StepLR | StepLR |
+| Scheduler Step Size | 4 | 4 | 4 |
+| Scheduler gamma | 0.1 | 0.1 | 0.1 |
+| Batch Size | 64 | 64 | 64 |
+| Epochs | 10 | 8 | 10 |
+| Time per Epoch (mins) | 57 | 65 | 50 |
+
+
 
 
 
