@@ -73,4 +73,10 @@ the Classifier layer of MobileNet V2 is replaced with the CustomClassifier. The 
 ![MobileNet-V2](https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/mobnet.png 'MobileNet-V2')
 ![EfficientNet-B1](https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/effnet.png 'EfficientNet-B1')
 
+<p align="center">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Architectures/effnet.png" width="400" height="300">
+    <br>
+    <em>EfficientNet-B1</em>
+</p>
+
 
