@@ -99,7 +99,8 @@ Squared Error is used for regression.
 | Time per Epoch (mins) | 57 | 65 | 50 |
 
 ## Results
-- Quantitative Results (Expression)
+#### Quantitative Classification Results (Expression)
+
 |                | **MobileNet V2** | **Efficient Net B1** | **ResNet18** |
 | -------------- | ---------------- | --------------------- | ------------ |
 | **Accuracy**         | 73.2             | 66.3                  | **76.7**          |
@@ -140,6 +141,31 @@ The classification report:
 | Anger            | 0.66      | 0.58   | 0.62     | 5018      |
 | Contempt         | 0.25      | 0.00   | 0.01     | 762       |
 
+#### Quantitative Regression Results (Valence)
 
+|                              | MobileNet V2 | Efficient Net B1 | ResNet18 |
+|------------------------------|--------------|------------------|----------|
+| Root Mean Square Error       | 0.33         | 0.36             | **0.29** |
+| Correlation                  | 0.80         | 0.75             | **0.83** |
+| Sign Agreement Metric        | 0.80         | 0.76             | **0.83** |
+| Concordance Correlation Co-efficient | 0.73 | 0.63             | **0.82** |
+
+#### Quantitaitve Regression Results (Arousal)
+
+|                             | MobileNet V2 | Efficient Net B1 | ResNet18 |
+|-----------------------------|-------------|------------------|----------|
+| Root Mean Square Error      | 0.26        | 0.29             | **0.24** |
+| Correlation                 | 0.54        | 0.35             | **0.62** |
+| Sign Agreement Metric       | 0.68        | 0.63             | **0.70** |
+| Concordance Correlation Coefficient | 0.46 | 0.13             | **0.56** |
+
+
+
+### Some classifications by ResNet-18
+#### Correctly Classified
+!(https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20correctly%20classified%20images.png)
+
+#### Incorrectly Classified
+!(https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20incorrectly%20classified%20images.png)
 
 
