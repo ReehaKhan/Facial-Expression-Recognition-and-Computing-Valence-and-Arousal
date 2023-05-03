@@ -163,6 +163,9 @@ ResNet-18 has outperformed the other two models in all three tasks.
 
 ### Some classifications by ResNet-18
 #### Correctly Classified
+<p align="center">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20correctly%20classified%20images.png" width="500" height="200">
+</p>
 ![Correctly Classified by ResNet-18](https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20correctly%20classified%20images.png)
 
 #### Incorrectly Classified
