@@ -1,15 +1,16 @@
 # Facial-Expression-Recognition-and-Computing-Valence-and-Arousal
 Implementation and Comparison of ResNet-18, MobileNet-V2 and EfficientNet-B1 on AffectNet dataset.
-
+## Section Title {#section-id}
+[Link Text](#section-id)
 ## Contents
-1. [Abstract](1)
+1. [Abstract](abstract)
 2. [Introduction](introduction)
 3. [Set Up Instructions](setup)
 4. [Data Set](dataset)
 5. [Models](models)
 6. [Results](results)
 
-## Abstract {#1}
+## Abstract {#abstract}
 Facial emotion recognition is the process of identifying a person’s emotional state by analyzing their facial expressions. Computing valence
 and arousal in addition to facial expression recognition can provide a more comprehensive understanding of a person’s emotional state. In this
 assignment, multi-task learning is implemented using three CNN architectures, which are MobileNet-V2, ResNet-18 and EfficientNet-B1. Transfer Learning is
