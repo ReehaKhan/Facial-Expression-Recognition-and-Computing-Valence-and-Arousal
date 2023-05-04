@@ -98,6 +98,14 @@ Squared Error is used for regression.
 | Epochs | 10 | 8 | 10 |
 | Time per Epoch (mins) | 57 | 65 | 50 |
 
+### Training Graph for ResNet-18
+<p align="center">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20acc%20graph.png" width="200" height="200">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20loss%20graph.png" width="200" height="200">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20val%20rmse%20graph.png" width="200" height="200">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20aro%20rmse%20graph.png" width="200" height="200">
+</p>
+
 ## Results
 #### Quantitative Classification Results (Expression)
 
@@ -162,8 +170,8 @@ The classification report:
 ResNet-18 has outperformed the other two models in all three tasks.
 
 ### Some classifications by ResNet-18
-<p align="center">
+<p align="right">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20correctly%20classified%20images.png" width="500" height="300">
 </p>
-<p align="center">
+<p align="right">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Performance%20Evaluation/ResNet-18/res%20incorrectly%20classified%20images.png" width="500" height="300">
