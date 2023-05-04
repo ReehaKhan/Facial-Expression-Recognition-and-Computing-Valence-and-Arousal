@@ -122,7 +122,13 @@ To train the model on your system, please follow the following steps:
 5. After training is complete, the best validation performance model will be saved in your Google Drive.
 
 ### Running the Test Scripts
-
+To test the model on the dataset, please follow the following steps:
+1. From the 'Models' folder, open the models link.
+2. Download the model you want to test.
+3. Download the respective test script from the 'Test' folder.
+4. Upload the test script and the model file to Google Colab.
+5. Mount the Google Drive and change the paths in the testing notebook.
+6. Run the code sequentially.
 
 ## Results
 #### Quantitative Classification Results (Expression)
