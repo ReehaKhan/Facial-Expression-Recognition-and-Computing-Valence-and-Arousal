@@ -100,10 +100,10 @@ Squared Error is used for regression.
 
 ### Training Graph for ResNet-18
 <p align="center">
-    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20acc%20graph.png" width="250" height="250">
-    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20loss%20graph.png" width="250" height="250">
-    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20val%20rmse%20graph.png" width="250" height="250">
-    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20aro%20rmse%20graph.png" width="250" height="250">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20acc%20graph.png" width="200" height="200">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20loss%20graph.png" width="200" height="200">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20val%20rmse%20graph.png" width="200" height="200">
+    <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20aro%20rmse%20graph.png" width="200" height="200">
 </p>
 
 ## Results
