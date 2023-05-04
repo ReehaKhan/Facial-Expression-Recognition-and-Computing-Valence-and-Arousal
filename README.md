@@ -2,8 +2,14 @@
 Implementation and Comparison of ResNet-18, MobileNet-V2 and EfficientNet-B1 on AffectNet dataset.
 
 ## Contents
+1. [Abstract](abstract)
+2. [Introduction]{introduction)
+3. [Set Up Instructions](setup)
+4. [Data Set](dataset)
+5. [Models](models)
+6. [Results](results)
 
-## Abstract
+## Abstract {#abstract}
 Facial emotion recognition is the process of identifying a person’s emotional state by analyzing their facial expressions. Computing valence
 and arousal in addition to facial expression recognition can provide a more comprehensive understanding of a person’s emotional state. In this
 assignment, multi-task learning is implemented using three CNN architectures, which are MobileNet-V2, ResNet-18 and EfficientNet-B1. Transfer Learning is
@@ -11,7 +17,7 @@ used for EfficientNet-B1, while the other two were trained from scratch. The
 dataset used is AffectNet that contains around 280K images annotated for expression, valence, arousal and lanmarks.
 The results of the models are compared using many different evaluation metrics such as Accuracy, Cohens Kappa, Root Mean Square Error, Concordance Correlation Coefficent etc.
 
-## Introduction
+## Introduction {#introduction}
 Facial expression recognition is a research area in computer vision, with
 numerous real-world applications such as human-computer interaction, emotion analysis, and security systems. Convolutional Neural Networks (CNNs)
 have shown remarkable performance in facial expression recognition tasks in
@@ -39,7 +45,42 @@ and arousal shows excitement/agitation or calm/soothing. This is done using
 3 CNN Architectures, namely, MobileNet-V2, ResNet-18, and EfficientNet-B1.
 The implementation and performance comparisons are discussed.
 
-## DataSet
+## Set Up Instructions {#setup}
+To run these models, here are the instructions.
+
+### Requirements
+- python==3.10.11
+- numpy==1.22.4
+- pandas==1.5.3
+- scikit-learn==1.2.2
+- pytorch==2.0.0+cu118
+- torchvision==0.15.1+cu118
+- pillow==8.4.0
+- matplotlib==3.5.1
+- seaborn==0.12.2
+- tqdm==4.65.0
+
+### DataSet
+The dataset can be downloaded from [here](http://mohammadmahoor.com/affectnet/). Please load the dataset on to your Google Drive from where it will be mounted.
+
+### Running the Train Scripts
+To train the model on your system, please follow the following steps:
+1. Download the train script from the 'Train' folder and upload to Google Colab.
+2. Mount the Google Drive and change the paths in the training notebook.
+3. Run the code sequentially.
+4. When training the model, one epoch takes one hour on standard Google Colab GPU T4. The training progress and the checkpoint at each epoch are saved as '.pth' file in the drive (keep in mind to change the paths).
+5. After training is complete, the best validation performance model will be saved in your Google Drive.
+
+### Running the Test Scripts
+To test the model on the dataset, please follow the following steps:
+1. From the 'Models' folder, open the models link.
+2. Download the model you want to test.
+3. Download the respective test script from the 'Test' folder.
+4. Upload the test script and the model file to Google Colab.
+5. Mount the Google Drive and change the paths in the testing notebook.
+6. Run the code sequentially.
+
+## DataSet {#dataset}
 The dataset used in this project is [AffectNet](http://mohammadmahoor.com/affectnet/). AffectNet is a large facial
 expression dataset with around 300K images manually labeled for the presence
 of eight facial expressions along with the facial landmarks and the intensity
@@ -61,7 +102,7 @@ In this project, the count of images in the train, test and validation set is as
 |-------|-------|-----------|
 | 230120 | 57531 | 3999 |
 
-## Models
+## Models {#models}
 The models chosen for this task are three, i.e., ResNet18, Mobilenet V2, and
 Efficient Net B1. 
 All three of these models are expected to perform 2 regression and 1 classification task. For this reason, a class is built that performs 3
@@ -104,42 +145,7 @@ Squared Error is used for regression.
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20aro%20rmse%20graph.png" width="200" height="200">
 </p>
 
-## Set Up Instructions
-To run these models, here are the instructions.
-
-### Requirements
-- python==3.10.11
-- numpy==1.22.4
-- pandas==1.5.3
-- scikit-learn==1.2.2
-- pytorch==2.0.0+cu118
-- torchvision==0.15.1+cu118
-- pillow==8.4.0
-- matplotlib==3.5.1
-- seaborn==0.12.2
-- tqdm==4.65.0
-
-### DataSet
-The dataset can be downloaded from [here](http://mohammadmahoor.com/affectnet/). Please load the dataset on to your Google Drive from where it will be mounted.
-
-### Running the Train Scripts
-To train the model on your system, please follow the following steps:
-1. Download the train script from the 'Train' folder and upload to Google Colab.
-2. Mount the Google Drive and change the paths in the training notebook.
-3. Run the code sequentially.
-4. When training the model, one epoch takes one hour on standard Google Colab GPU T4. The training progress and the checkpoint at each epoch are saved as '.pth' file in the drive (keep in mind to change the paths).
-5. After training is complete, the best validation performance model will be saved in your Google Drive.
-
-### Running the Test Scripts
-To test the model on the dataset, please follow the following steps:
-1. From the 'Models' folder, open the models link.
-2. Download the model you want to test.
-3. Download the respective test script from the 'Test' folder.
-4. Upload the test script and the model file to Google Colab.
-5. Mount the Google Drive and change the paths in the testing notebook.
-6. Run the code sequentially.
-
-## Results
+## Results {#results}
 #### Quantitative Classification Results (Expression)
 
 |                | **MobileNet V2** | **Efficient Net B1** | **ResNet18** |
