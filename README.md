@@ -17,7 +17,7 @@ used for EfficientNet-B1, while the other two were trained from scratch. The
 dataset used is AffectNet that contains around 280K images annotated for expression, valence, arousal and lanmarks.
 The results of the models are compared using many different evaluation metrics such as Accuracy, Cohens Kappa, Root Mean Square Error, Concordance Correlation Coefficent etc.
 
-## Introduction {#introduction}
+## [Introduction](#introduction)
 Facial expression recognition is a research area in computer vision, with
 numerous real-world applications such as human-computer interaction, emotion analysis, and security systems. Convolutional Neural Networks (CNNs)
 have shown remarkable performance in facial expression recognition tasks in
@@ -45,7 +45,7 @@ and arousal shows excitement/agitation or calm/soothing. This is done using
 3 CNN Architectures, namely, MobileNet-V2, ResNet-18, and EfficientNet-B1.
 The implementation and performance comparisons are discussed.
 
-## Set Up Instructions {#setup}
+## [Set Up Instructions](#setup)
 To run these models, here are the instructions.
 
 ### Requirements
@@ -80,7 +80,7 @@ To test the model on the dataset, please follow the following steps:
 5. Mount the Google Drive and change the paths in the testing notebook.
 6. Run the code sequentially.
 
-## DataSet {#dataset}
+## [DataSet](#dataset)
 The dataset used in this project is [AffectNet](http://mohammadmahoor.com/affectnet/). AffectNet is a large facial
 expression dataset with around 300K images manually labeled for the presence
 of eight facial expressions along with the facial landmarks and the intensity
@@ -102,7 +102,7 @@ In this project, the count of images in the train, test and validation set is as
 |-------|-------|-----------|
 | 230120 | 57531 | 3999 |
 
-## Models {#models}
+## [Models](#models)
 The models chosen for this task are three, i.e., ResNet18, Mobilenet V2, and
 Efficient Net B1. 
 All three of these models are expected to perform 2 regression and 1 classification task. For this reason, a class is built that performs 3
@@ -145,7 +145,7 @@ Squared Error is used for regression.
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20aro%20rmse%20graph.png" width="200" height="200">
 </p>
 
-## Results {#results}
+## [Results](#results)
 #### Quantitative Classification Results (Expression)
 
 |                | **MobileNet V2** | **Efficient Net B1** | **ResNet18** |
