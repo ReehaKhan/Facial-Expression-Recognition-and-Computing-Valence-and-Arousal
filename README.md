@@ -61,8 +61,6 @@ In this project, the count of images in the train, test and validation set is as
 |-------|-------|-----------|
 | 230120 | 57531 | 3999 |
 
-The dataset can be requested from the [official website](http://mohammadmahoor.com/affectnet/).
-
 ## Models
 The models chosen for this task are three, i.e., ResNet18, Mobilenet V2, and
 Efficient Net B1. 
@@ -98,13 +96,33 @@ Squared Error is used for regression.
 | Epochs | 10 | 8 | 10 |
 | Time per Epoch (mins) | 57 | 65 | 50 |
 
-### Training Graph for ResNet-18
+### Training Graphs for ResNet-18
 <p align="center">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20acc%20graph.png" width="200" height="200">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20loss%20graph.png" width="200" height="200">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20val%20rmse%20graph.png" width="200" height="200">
     <img src="https://github.com/ReehaKhan/Facial-Expression-Recognition-and-Computing-Valence-and-Arousal/blob/main/Train/res%20aro%20rmse%20graph.png" width="200" height="200">
 </p>
+
+## Set Up Instructions
+To run these models, here are the instructions.
+
+### Requirements
+
+
+### DataSet
+The dataset can be downloaded from [here](http://mohammadmahoor.com/affectnet/). Please load the dataset on to your Google Drive from where it will be mounted.
+
+### Running the Train Scripts
+To train the model on your system, please follow the following steps:
+1. Download the train script from the 'Train' folder and upload to Google Colab.
+2. Mount the Google Drive and change the paths in the training notebook.
+3. Run the code sequentially.
+4. When training the model, one epoch takes one hour on standard Google Colab GPU T4. The training progress and the checkpoint at each epoch are saved as '.pth' file in the drive (keep in mind to change the paths).
+5. After training is complete, the best validation performance model will be saved in your Google Drive.
+
+### Running the Test Scripts
+
 
 ## Results
 #### Quantitative Classification Results (Expression)
