@@ -61,7 +61,7 @@ To run these models, here are the instructions.
 - tqdm==4.65.0
 
 ### Data Set
-The dataset can be downloaded from [here](http://mohammadmahoor.com/affectnet/). Please load the dataset on to your Google Drive from where it will be mounted.
+The dataset can be requested from [here](http://mohammadmahoor.com/affectnet/). Please load the dataset on to your Google Drive from where it will be mounted.
 
 ### Running the Train Scripts
 To train the model on your system, please follow the following steps:
