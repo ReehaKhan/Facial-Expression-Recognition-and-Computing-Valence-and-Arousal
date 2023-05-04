@@ -3,12 +3,12 @@ Implementation and Comparison of ResNet-18, MobileNet-V2 and EfficientNet-B1 on 
 ## Section Title {#section-id}
 [Link Text](#section-id)
 ## Contents
-1. [Abstract](abstract)
-2. [Introduction](introduction)
-3. [Set Up Instructions](setup)
-4. [Data Set](dataset)
-5. [Models](models)
-6. [Results](results)
+1. [Abstract](#abstract)
+2. [Introduction](#introduction)
+3. [Set Up Instructions](#setup)
+4. [Data Set](#dataset)
+5. [Models](#models)
+6. [Results](#results)
 
 ## Abstract {#abstract}
 Facial emotion recognition is the process of identifying a person’s emotional state by analyzing their facial expressions. Computing valence
