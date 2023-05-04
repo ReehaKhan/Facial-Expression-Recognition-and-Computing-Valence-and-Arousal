@@ -3,7 +3,7 @@ Implementation and Comparison of ResNet-18, MobileNet-V2 and EfficientNet-B1 on 
 
 ## Contents
 1. [Abstract](abstract)
-2. [Introduction]{introduction)
+2. [Introduction](introduction)
 3. [Set Up Instructions](setup)
 4. [Data Set](dataset)
 5. [Models](models)
