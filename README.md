@@ -108,7 +108,16 @@ Squared Error is used for regression.
 To run these models, here are the instructions.
 
 ### Requirements
-
+python==3.10.11
+numpy==1.22.4
+pandas==1.5.3
+scikit-learn==1.2.2
+pytorch==2.0.0+cu118
+torchvision==0.15.1+cu118
+pillow==8.4.0
+matplotlib==3.5.1
+seaborn==0.12.2
+tqdm==4.65.0
 
 ### DataSet
 The dataset can be downloaded from [here](http://mohammadmahoor.com/affectnet/). Please load the dataset on to your Google Drive from where it will be mounted.
